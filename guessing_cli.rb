@@ -6,10 +6,15 @@ def run_guessing_game
     input=gets.chomp
     if input.to_int==correct
       puts "You guessed it!"
+    
+    elsif(input=="exit")
+    break
+      
     else
     compguess=rand(1..6)
-    if 
-    puts "The computer guesses rand#{rand,"
+    
+    puts "The computer guessed #{compguess}."
+  end
     break
   end
 end
