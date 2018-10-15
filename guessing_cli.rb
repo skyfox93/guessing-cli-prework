@@ -13,7 +13,6 @@ def run_guessing_game
       puts "You guessed the correct number!"
     else
     compguess=rand(1..6)
-    
     puts "The computer guessed #{compguess}."
   end
   end
