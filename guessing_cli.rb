@@ -4,12 +4,11 @@ def run_guessing_game
   correct = rand(1..6)
   loop do
     input=gets.chomp
+    
     if input.to_i==correct
       puts "You guessed the correct number!"
     
-    if(input=="exit")
-    break
-      
+   
     else
     compguess=rand(1..6)
     
