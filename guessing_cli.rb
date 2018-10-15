@@ -5,6 +5,7 @@ def run_guessing_game
   loop do
     input=gets.chomp
      if(input=="exit")
+       puts "Goodbye!"
     break
       
     elsif input.to_i==correct
