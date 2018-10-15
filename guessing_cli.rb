@@ -14,6 +14,7 @@ def run_guessing_game
     else
     compguess=rand(1..6)
     puts "The computer guessed #{compguess}."
+    puts "the computer won"
   end
   end
 end
