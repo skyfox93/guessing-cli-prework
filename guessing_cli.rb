@@ -10,8 +10,7 @@ def run_guessing_game
       
     elsif input.to_i==correct
       puts "You guessed the correct number!"
-    break
-   
+      break
     else
     compguess=rand(1..6)
     
